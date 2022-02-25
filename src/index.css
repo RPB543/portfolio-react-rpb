@@ -6,10 +6,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Poppins', 'Courier New', monospace;
 }
 
 * {
@@ -27,11 +27,11 @@ code {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Poppins', "Trebuchet MS", Helvetica, sans-serif;
   color: var(--primary);
   /* background-image: url("./assets/background.jpg"); */
   line-height: 1.5;
-  background-color: black;
+  background-color: #bbbbbb;
 }
 
 h1,
@@ -62,10 +62,6 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  /* background-color: var(--light); */
-  /* background-color: rgb(31, 55, 71); */
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-  /* position: sticky; */
   top: 0;
   
 }
@@ -75,24 +71,21 @@ header h1 {
   /* background-color: var(--secondary); */
   padding: 5px 10px 5px 10px;
   margin: 0;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.968);
-
 }
 
 nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 nav a {
   text-decoration: none;
   padding: 5px 10px;
   color: var(--secondary);
-  margin-right: 10px;
-  background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
@@ -125,7 +118,6 @@ body::before {
   width: 100%;
   z-index: -9999;
   background-color: var(--white);
-  /* background-image: url(../images/hero.jpg); */
   background-repeat: no-repeat;
   background-position: left top;
   opacity: 0.4;
@@ -225,23 +217,14 @@ body::before {
   height: 100%;
   padding: 200px 0px 30px 500px;
   text-align: center;
-  /* position: absolute; */
   height: 10px;
-}
+} 
 
 .contact address a {
   color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.968);
-  padding: 0px 2px;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1 rem;
   font-style: normal;
-  background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: bottom;
-  transition: all 0.25s ease-in;
-  margin: 0 0.2rem 0.1rem;
   display: inline-block;
 }
 
@@ -282,37 +265,26 @@ body::before {
   content: url("./assets/github.svg");
 }
 
-
-/* contact form */
-section {
-  display: flex;
+.link::before {
+  content: url("./assets/link.svg");
 }
+
+
+
 .form {
-  display: flex;
+  width: 60%;
+  font-size: 1rem;
   padding-left: 100px;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
 }
 
-
-/* contact-form label {
-  /* text-align: center;
-  font-size: xx-large; */
-  /* display: block;
-  box-sizing: border-box;
-  padding-left: 400px; 
-} */
-
-/* .form-wrapper {
-  display: flex;
-  font-size: medium;
-} */
-
-
-/* .form-name input {
-  width: 100%;
-  padding: 12px;
-} */
-
-
+.input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
 
 /* footer */
 footer h3 {
