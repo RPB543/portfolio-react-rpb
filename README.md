@@ -5,7 +5,7 @@ Developed portfolio of projects using React.
 
 ## Table of Contents
 * [Link](#link)
-* [Screenshot](#Screenshot)
+* [Screenshot](#screenshot)
 * [Questions](#questions)
 
 
