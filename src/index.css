@@ -234,27 +234,31 @@ body::before {
 }
 
 /* work images */
-/* .run-buddy {
-  background-image: url("./assets/runbuddy.JPG");
+.run-buddy {
+  background-image: url("./assets/hero-bg1.jpg");
 }
 
-.horiseon {
-  background-image: url("./assets/horiseon.JPG");
+.note-taker {
+  background-image: url("./assets/notetaker.png");
 }
 
-.minnow {
-  background-image: url("./assets/minnow.png");
+.weather {
+  background-image: url("./assets/weather.png");
 }
 
-.project-gemini {
-  background-image: url("./assets/project-gemini.PNG");
+.send-joke {
+  background-image: url("./assets/Sendajoke.PNG");
 }
 
 .budget-tracker {
   background-image: url("./assets/budget-tracker.JPG");
-} */
+}
 
-/* end work images*/
+.tech-blog {
+  background-image: url("./assets/techblog.png");
+}
+
+/* end work images */
 
 
 .email::before {
