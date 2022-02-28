@@ -247,11 +247,11 @@ body::before {
 }
 
 .send-joke {
-  background-image: url("./assets/Sendajoke.PNG");
+  background-image: url("./assets/Sendajoke.png");
 }
 
 .budget-tracker {
-  background-image: url("./assets/budget-tracker.JPG");
+  background-image: url("./assets/budget-tracker.png");
 }
 
 .tech-blog {
