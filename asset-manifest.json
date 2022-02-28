@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-rpb/static/css/main.67c7ddcb.css",
+    "main.js": "/portfolio-react-rpb/static/js/main.b1d81601.js",
+    "static/js/787.c36d8a6b.chunk.js": "/portfolio-react-rpb/static/js/787.c36d8a6b.chunk.js",
+    "static/media/dog-in-party-hat.jpg": "/portfolio-react-rpb/static/media/dog-in-party-hat.9166645829ebf50b5c68.jpg",
+    "static/media/github.svg": "/portfolio-react-rpb/static/media/github.55ca2802304ddd5459e3.svg",
+    "static/media/email.svg": "/portfolio-react-rpb/static/media/email.bdd58fc466cf53d048c0.svg",
+    "static/media/link.svg": "/portfolio-react-rpb/static/media/link.e583fde0cd7044860059.svg",
+    "index.html": "/portfolio-react-rpb/index.html",
+    "main.67c7ddcb.css.map": "/portfolio-react-rpb/static/css/main.67c7ddcb.css.map",
+    "main.b1d81601.js.map": "/portfolio-react-rpb/static/js/main.b1d81601.js.map",
+    "787.c36d8a6b.chunk.js.map": "/portfolio-react-rpb/static/js/787.c36d8a6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c7ddcb.css",
+    "static/js/main.b1d81601.js"
+  ]
+}
